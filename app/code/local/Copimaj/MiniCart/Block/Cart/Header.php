@@ -32,6 +32,7 @@
  * @package     Mage_Checkout
  * @author      Magento Core Team <core@magentocommerce.com>
  */
+var_dump("expression");
 class Copimaj_MiniCart_Block_Cart_Header extends Mage_Checkout_Block_Cart_Header
 {
     const XML_PATH_CHECKOUT_SIDEBAR_COUNT   = 'checkout/sidebar/count';
