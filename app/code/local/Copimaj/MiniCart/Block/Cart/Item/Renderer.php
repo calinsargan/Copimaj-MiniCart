@@ -34,7 +34,6 @@
  * @method Mage_Checkout_Block_Cart_Item_Renderer setProductName(string)
  * @method Mage_Checkout_Block_Cart_Item_Renderer setDeleteUrl(string)
  */
-var_dump("expression");
 class Copimaj_MiniCart_Block_Cart_Item_Renderer extends Mage_Checkout_Block_Cart_Item_Renderer
 {
     /** @var Mage_Checkout_Model_Session */

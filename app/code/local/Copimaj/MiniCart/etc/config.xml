@@ -2,16 +2,25 @@
 <config>
 	<modules>
 		<Copimaj_MiniCart>
-			<version>0.1.0</version>
+			<version>0.1.1</version>
 		</Copimaj_MiniCart>
 	</modules>
 	<global>
         <blocks>
             <checkout>
                 <rewrite>
-                    <cart_header>Copimaj_MiniCart_Block_Cart_Header</cart_header>
+                    <cart_item_renderer>Copimaj_MiniCart_Block_Cart_Item_Renderer</cart_item_renderer>
                 </rewrite>
             </checkout>
         </blocks>
     </global>
+    <frontend>
+        <layout>
+            <updates>
+            	<module>
+            		<file>copimaj-minicart.xml</file>
+            	</module>
+            </updates>
+        </layout>
+    </frontend>
 </config>
